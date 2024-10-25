@@ -1,0 +1,72 @@
+/* .input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+input{
+    padding: 10px 80px 10px 20px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+input:focus{
+    outline: none;
+}
+
+div{
+    position: relative;
+}
+
+.submitbtn{
+    position: absolute;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    right: 2px;
+    cursor: pointer;
+}
+
+.todo{
+    margin: 20px;
+    padding: 10px;
+    width:300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+p{
+    font-size: 18px;
+    
+}
+
+.deletebtn{
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(199, 131, 6);
+    color: white;
+    cursor: pointer;
+}
+
+.completesTodoStyle{
+    text-decoration: line-through;
+}
+
+.deev{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
