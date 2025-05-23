@@ -5,6 +5,7 @@ export default function TodoItems({todo, todos, setTodos}) {
         console.log('delete button clicked for', todo)
         setTodos(todos.filter((item =>(todo !== item))))
     }
+    
     const handleClick = (name) =>{
         setTodos(todos.map((todoItem) => 
             todoItem.name === name ? 

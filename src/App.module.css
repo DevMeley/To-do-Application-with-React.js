@@ -11,6 +11,8 @@
     background-image: linear-gradient(45deg, purple, pink, pink, yellow);
     min-height: 100vh;
     font-family: sans-serif;
+    width: 500px;
+   
 }
 .container{
     display: flex;
@@ -21,4 +23,9 @@
     padding: 20px;
     border-radius: 20px;
     height: 100%;
+    margin: 50px;
+}
+.footer{
+    font-size: 12px;
+    margin-top: 20px;
 }
